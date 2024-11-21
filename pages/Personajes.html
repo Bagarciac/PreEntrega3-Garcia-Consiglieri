@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="../css/estilo.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Quintessential&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/estilo.css">
         <title>A Song of Ice and Fire Wiki</title>
     </head>
     <body>
         <header>
-            <div>
-                <!--logo-->
-                <img class="logo" src="../img/throne.jpg" alt="logo de ASOIF">
-            </div>
             <h1>
                 A Song of Ice and Fire
             </h1>
-            <hr>
-            <br>
-            <nav>
-                <ul>
-                    <div class="menu">
-                        <li class="m-li"><a href="../index.html">Inicio</a></li>
-                        <li class="m-li"><a href="../pages/libros.html">Libros</a></li>
-                        <li class="m-li"><a href="../pages/casas.html">Casas</a></li>
-                        <li class="m-li"><a href="#">Personajes</a></li>
-                        <li class="m-li"><a href="../pages/Autor.html">Autor</a></li>
-                    </div>
-                </ul>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary color">
+                <div class="container-fluid color">
+                  <a class="navbar-brand" href="#"><img class="logo" src="../img/throne.jpg" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon color"></span>
+                  </button>
+                  <div class="collapse navbar-collapse menu" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="m-li">
+                        <a href="../index.html">Inicio</a>
+                      </li>
+                      <li class="m-li">
+                        <a href="./libros.html">Libros</a>
+                      </li>
+                      <li class="m-li">
+                        <a  href="./casas.html">Casas</a>
+                      </li>
+                      <li class="m-li">
+                        <a  href="#">Personajes</a>
+                      </li>
+                      <li class="m-li">
+                        <a  href="./Autor.html">Autor</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
             </nav>
         </header>
         <br>
-        <hr>
         <main>
             <section>
                 <h2>Personajes</h2>
@@ -41,24 +51,37 @@
                     <div class="personaje">
                         <img src="../img/jon snow.jpg" alt="Jon snow">
                         <h4>Jon snow</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aspernatur error nostrum impedit quaerat in placeat reiciendis magni sapiente unde eius, ipsam, rem, corrupti incidunt? Porro tenetur laboriosam esse, quis distinctio a consequatur libero id veritatis dolor, asperiores consectetur eius, exercitationem quos omnis harum magnam? Explicabo fugiat officiis reprehenderit sequi porro ad unde soluta id molestiae corrupti commodi, hic dolores cupiditate obcaecati officia repellendus quos suscipit sunt. Doloremque, repudiandae deleniti?</p>
+                        <p>
+                            Jon Snow es el hijo bastardo de Eddard Stark, Señor de Winterfell. Tiene cinco medios hermanos: Robb, Sansa, Arya, Bran y Rickon Stark. Sin conocer la identidad de su madre, Jon se crió en Winterfell. A la edad de catorce años, Jon se une a la Guardia de la Noche, donde se gana el apodo de Lord Snow.
+                            <br> Jon tiene la cara alargada de los Starks.Tiene cabello castaño oscuro y ojos grises, tan oscuros que casi parecen negros. Sus movimientos son elegante y rápido, y tiene una figura delgada. Jon se parece a su padre, Lord Eddard Stark, y tiene más rasgos parecidos a los de Stark que cualquiera de sus medio hermanos.
+                        </p>
                     </div>
                     <div class="personaje">
                         <img src="../img/daenerys.jpg" alt="Daenerys Targaryen">
                         <h4>Daenerys Targaryen</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aspernatur error nostrum impedit quaerat in placeat reiciendis magni sapiente unde eius, ipsam, rem, corrupti incidunt? Porro tenetur laboriosam esse, quis distinctio a consequatur libero id veritatis dolor, asperiores consectetur eius, exercitationem quos omnis harum magnam? Explicabo fugiat officiis reprehenderit sequi porro ad unde soluta id molestiae corrupti commodi, hic dolores cupiditate obcaecati officia repellendus quos suscipit sunt. Doloremque, repudiandae deleniti?</p>
+                        <p>
+                            Daenerys Targaryen, también conocida como Daenerys Stormborn, es uno de los últimos miembros confirmados de la Casa Targaryen, junto con su hermano mayor Viserys, quien se refiere a ella como Dany. Es la hija menor del rey Aerys II Targaryen y su hermana y esposa, la reina Rhaella. Tambien es conocida como "La Madre de Dragones" ya que es la dueña de los unicos tres dragones que quedan en el mundo.
+                            <br>Daenerys tiene el aspecto clásico valyrio; Tiene ojos violetas, piel pálida y cabello largo y color dorado pálido.
+                        </p>
                     </div>
                     <div class="personaje">
                         <img src="../img/jaime lannister.jpg" alt="Jaime Lannister">
                         <h4>Jaime Lannister</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aspernatur error nostrum impedit quaerat in placeat reiciendis magni sapiente unde eius, ipsam, rem, corrupti incidunt? Porro tenetur laboriosam esse, quis distinctio a consequatur libero id veritatis dolor, asperiores consectetur eius, exercitationem quos omnis harum magnam? Explicabo fugiat officiis reprehenderit sequi porro ad unde soluta id molestiae corrupti commodi, hic dolores cupiditate obcaecati officia repellendus quos suscipit sunt. Doloremque, repudiandae deleniti?</p>
+                        <p>
+                            Jaime Lannister, también conocido como Kingslayer, es un caballero de la Casa Lannister. Es el segundo hijo y primogénito de Lord Tywin Lannister de Casterly Rock y su esposa, Lady Joanna, también de la Casa Lannister. Es el hermano gemelo de la reina Cersei Lannister.
+
+                            Criado a la edad de quince años en la Guardia Real del Rey Loco, Aerys II Targaryen, Jaime se convirtió en el miembro más joven en la historia de la prestigiosa orden de caballeros. Se ganó el apodo despectivo de "Kingslayer" cuando mató a traición a Aerys cerca del final de La rebelión de Robert.</p>
                     </div>
                 </div>
                 <div class="g-personajes">
                     <div class="personaje">
                         <img src="../img/tyrion lannister.jpg" alt="Tyrion Lannister">
                         <h4>Tyrion Lannister</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt aspernatur error nostrum impedit quaerat in placeat reiciendis magni sapiente unde eius, ipsam, rem, corrupti incidunt? Porro tenetur laboriosam esse, quis distinctio a consequatur libero id veritatis dolor, asperiores consectetur eius, exercitationem quos omnis harum magnam? Explicabo fugiat officiis reprehenderit sequi porro ad unde soluta id molestiae corrupti commodi, hic dolores cupiditate obcaecati officia repellendus quos suscipit sunt. Doloremque, repudiandae deleniti?</p>
+                        <p>
+                            Tyrion Lannister es miembro de la Casa Lannister y es el tercer y menor hijo de Lord Tywin Lannister y la fallecida Lady Joanna Lannister. Sus hermanos mayores son Cersei Lannister, la reina del rey Robert I Baratheon, y Ser Jaime Lannister, un caballero de la Guardia Real de Robert.
+                            Tyrion es un enano; Por eso a veces se le llama el Diablillo y el Medio Hombre.
+                            <br>Tyrion es un enano con piernas atrofiadas, dedos rechonchos y una frente prominente. Tiene ojos verdes y negros que no combinan, por lo que se difundieron rumores de que tiene "mal de ojo". El fino cabello de Tyrion es rubio y rubio, tan rubio que puede parecer blanco. Tiene algunos mechones de cabello negro, sin embargo, y si se deja crecer la barba, es amarilla, blanca y negra. Se dice que la mirada única de Tyrion incomoda a la gente, y él trata de usarla a su favor.
+                        </p>
                     </div>
                 </div>
                 
@@ -67,7 +90,8 @@
         </main>
         <hr>
         <footer>
-            <h4>mail ✉info@ASOIFwiki.com</h4>
+            <h4 class="mail">mail ✉info@ASOIFwiki.com</h4>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>

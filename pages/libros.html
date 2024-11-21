@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="../css/estilo.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Quintessential&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../css/estilo.css">
         <title>A Song of Ice and Fire Wiki</title>
     </head>
     <body>
         <header>
-            <div>
-                <!--logo-->
-                <img class="logo" src="../img/throne.jpg" alt="logo de ASOIF">
-            </div>
             <h1>
                 A Song of Ice and Fire
             </h1>
-            <hr>
-            <br>
-            <nav>
-                <ul>
-                    <div class="menu">
-                        <li class="m-li"><a href="../index.html">Inicio</a></li>
-                        <li class="m-li"><a href="#">Libros</a></li>
-                        <li class="m-li"><a href="./casas.html">Casas</a></li>
-                        <li class="m-li"><a href="./Personajes.html">Personajes</a></li>
-                        <li class="m-li"><a href="./Autor.html">Autor</a></li>
-                    </div>
-                     
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary color">
+                <div class="container-fluid color">
+                  <a class="navbar-brand" href="#"><img class="logo" src="../img/throne.jpg" alt="logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon color"></span>
+                  </button>
+                  <div class="collapse navbar-collapse menu" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="m-li">
+                        <a href="../index.html">Inicio</a>
+                      </li>
+                      <li class="m-li">
+                        <a href="#">Libros</a>
+                      </li>
+                      <li class="m-li">
+                        <a  href="./casas.html">Casas</a>
+                      </li>
+                      <li class="m-li">
+                        <a  href="./Personajes.html">Personajes</a>
+                      </li>
+                      <li class="m-li">
+                        <a  href="./Autor.html">Autor</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
         </header>
         <br>
-        <hr>
         <main>
             <section>
                 <h2>Libros</h2>
@@ -42,38 +51,49 @@
                     <div class="libro">
                         <img src="../img/libro 1.jpg" alt="A Game of Thrones">
                         <h4>A Game of Thrones</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum corporis, consectetur quae eum ipsum est provident nam ab quisquam. At, repellendus dicta earum, adipisci, laborum dolorum eius fuga facere hic ea expedita fugit maxime? Impedit nam aperiam, rem pariatur perspiciatis magnam, magni nisi, maiores error ea iste ipsam debitis vel.</p>
+                        <p>
+                            En una tierra donde los veranos pueden durar décadas y los inviernos toda una vida, se está gestando un problema. El frío está regresando, y en las tierras heladas al norte de Winterfell, fuerzas siniestras y sobrenaturales se están acumulando más allá del Muro protector del reino. En el centro del conflicto se encuentran los Starks de Winterfell, una familia tan dura e inflexible como la tierra en la que nacieron. Extendiéndose desde una tierra de frío brutal hasta un lejano reino estival de abundancia epicúrea, aquí hay una historia de señores y damas, soldados y hechiceros, asesinos y bastardos, que se unen en un tiempo de sombríos presagios. En medio de intrigas y contraintrigas, tragedias y traiciones, victorias y terror, el destino de los Starks, sus aliados y sus enemigos pende peligrosamente en la balanza, mientras cada uno se esfuerza por ganar el más mortal de los conflictos: el juego de tronos.
+                        </p>
                     </div>
                     <div class="libro">
                         <img src="../img/libro 2.jpg" alt="A Clash of Kings">
                         <h4>A Clash of Kings</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt asperiores ullam dolore dicta veritatis tempora odit. Eligendi, quaerat quibusdam. Non repellat, et laudantium veritatis eligendi, dolorem nihil voluptates ipsum enim itaque tempora porro asperiores ratione ad quas vero, quis hic. Hic, voluptates sint. Reprehenderit suscipit distinctio maxime accusamus labore nesciunt!</p>
+                        <p>
+                            Un cometa del color de la sangre y la llama surca el cielo. Y desde la antigua ciudadela de Rocadragón hasta las costas prohibidas de Invernalia, reina el caos. Seis facciones luchan por el control de una tierra dividida y el Trono de Hierro de los Siete Reinos, preparándose para reclamar sus derechos a través de la tempestad, la confusión y la guerra. Es una historia en la que hermano conspira contra hermano y los muertos se levantan para caminar en la noche. Aquí, una princesa se hace pasar por un huérfano; un caballero de la mente prepara un veneno para una hechicera traicionera; y hombres salvajes descienden de las Montañas de la Luna para 3  devastar el campo. Con un telón de fondo de incesto y fratricidio, alquimia y asesinato, la victoria puede ir a parar a los hombres y mujeres poseedores del acero más frío... y los corazones más fríos. Porque cuando los reyes chocan, toda la tierra tiembla.
+                        </p>
                     </div>
                     <div class="libro">
                         <img src="../img/libro 3.jpg" alt="A Storm of Swords">
                         <h4>A Storm of Swords</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione quibusdam earum quas quia, iusto minus obcaecati deleniti accusamus sunt perferendis eius, delectus molestiae. Dicta nesciunt ipsam iusto obcaecati eum, dolore vero aperiam odio enim sapiente neque. Eveniet possimus veniam cumque earum animi laboriosam saepe harum consectetur nostrum, officiis aspernatur?</p>
+                        <p>
+                            De los cinco contendientes al poder, uno está muerto, otro en desgracia, y las guerras aún continúan, mientras las alianzas se hacen y se rompen. Joffrey se sienta en el Trono de Hierro, el incómodo gobernante de los Siete Reinos. Su rival más amargo, Lord Stannis, está derrotado y deshonrado, víctima de la hechicera que lo tiene bajo su dominio. El joven Robb todavía gobierna el Norte desde la fortaleza de Aguasdulces. Mientras tanto, cruzando un continente empapado de sangre, se encuentra la reina exiliada, Daenerys, dueña de los únicos tres dragones que quedan en el mundo. Y mientras las fuerzas opuestas maniobran para el enfrentamiento final, un ejército de salvajes bárbaros llega desde los límites más externos de la civilización, acompañado por una horda de Otros míticos, un ejército sobrenatural de muertos vivientes cuyos cadáveres animados son imparables. Mientras el futuro de la tierra pende de un hilo, nadie descansará hasta que los Siete Reinos hayan explotado en una verdadera tormenta de espadas.
+                        </p>
                     </div>
                     <div class="libro">
                         <img src="../img/libro 4.jpg" alt="A Feast for Crows">
                         <h4>A Feast for Crows</h4>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure doloribus maxime perferendis voluptatem vitae fugit, animi repellendus quos ducimus nisi facilis, natus magni voluptate quasi possimus cumque sequi voluptatibus laboriosam suscipit. Perspiciatis est deserunt non eligendi tenetur obcaecati voluptas officiis iure earum, distinctio sed? Ut, tempore asperiores? Quas, mollitia nisi.</p>
+                        <p>
+                            Después de siglos de amargas luchas, las siete potencias que se reparten la tierra se han golpeado mutuamente en una tregua incómoda. Pero no pasa mucho tiempo antes de que los supervivientes, forajidos, renegados y carroñeros de los siete reinos se reúnan. Ahora, mientras los cuervos humanos se reúnen en torno a un banquete de cenizas, se forman nuevos y atrevidos complots y una nueva y peligrosa alianza mientras rostros sorprendentes- algunos conocidos, otros que acaban de aparecer- emergen un crepúsculo omnímodo de luchas pasadas y caos para retomar a los soldados y hechiceros, asesinos y sabios, se unen para apostar sus fortunas... y sus vidas. Porque en un festín de cuervos, muchos son los invitados, pero solo unos pocos son los sobrevivientes.
+                        </p>
                     </div>
                 </div>
                 <div class="g-libro">
                     <div class="libro">
                         <img src="../img/libro 5.jpg" alt="A Dance with Dragons">
                         <h4>A Dance with Dragons</h4>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe ex iste ducimus inventore deleniti qui beatae, repellendus quidem. Corporis repudiandae perferendis vitae delectus beatae consectetur magni iure sed dolorum odio voluptatem, officiis, assumenda nihil nemo? Optio reiciendis quaerat, eos quos, porro velit unde modi deserunt exercitationem delectus consectetur quibusdam ut.</p>
+                        <p>
+                            En las secuelas de una batalla colosal, Daenerys Targaryen gobierna con sus tres dragones como reina de una ciudad construida sobre el polvo y la muerte. Pero Daenerys tiene miles de enemigos, y muchos 1  han salido a buscarla. Huyendo de Westeros con un precio sobre su cabeza, Tyrion Lannister también se dirige hacia el este, con nuevos aliados que pueden no ser la banda de desaliñados que parecen. Y en el helado norte, Jon Snow se enfrenta a criaturas más allá del Muro de hielo y piedra, y a poderosos enemigos dentro de la Guardia de la Noche. En un tiempo de creciente inquietud, las mareas del destino y la política conducen a un gran elenco de forajidos y sacerdotes, soldados y cambiapieles, nobles y esclavos, a la danza más grande de todas.
+                        </p>
                     </div>
 
                 </div>
             </section>
         </main>
         <hr>
-        <hr>
         <footer>
-            <h4>mail ✉info@ASOIFwiki.com</h4>
+            <h4 class="mail">mail ✉info@ASOIFwiki.com</h4>
         </footer>
+        <hr>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 </html>
