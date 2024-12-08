@@ -1,0 +1,49 @@
+main{
+    .g-casas{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        .casa{
+            img{
+                max-width: 75%;
+                height: auto;
+                border-radius: 8px;
+                padding: 10%;
+                padding-left: 30%;
+            }
+            h4{
+                color: aliceblue;
+                text-align: center;
+                font-size: 2rem;
+                font-weight: bold;
+            }
+            p{
+                color: aliceblue;
+                padding: 2%;
+                text-align: justify;
+                font-size: 1.2rem;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    main{
+        .g-casas{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr;
+            .casa{
+                img{
+                    max-width: 100%;
+                    transform: translatex(-40px);
+                }
+                p{
+                    padding: 5%;
+                }
+            }
+        }
+    }
+}

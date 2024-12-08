@@ -1,0 +1,57 @@
+main{
+    .g-personajes{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        .personaje{
+            img{
+                max-width: 60%;
+                height: 60%;
+                border-radius: 8px;
+                padding: 3%;
+                float: left;
+            }
+            h4{
+                color: aliceblue;
+                padding: 10px;
+                padding-left: 80px;
+                font-size: 1.7rem;
+                font-weight: bold;
+            }
+            p{
+                margin-top: 8px;
+                color: aliceblue;
+                margin-left: 10px;
+                margin-right: 10px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1500px){
+    main{
+
+        .g-personajes{
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            grid-template-columns: 1fr 1fr;
+            .personaje{
+                p{
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 710px){
+    main{
+        .g-personajes{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr; 
+            grid-template-columns: 1fr;
+        }
+    }
+}

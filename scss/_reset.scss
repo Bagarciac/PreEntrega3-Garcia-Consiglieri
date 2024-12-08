@@ -1,0 +1,10 @@
+$fondo:linear-gradient(to top,rgb(15, 10, 10),rgb(169, 4, 4));
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: $fondo;
+    font-family: "Charm", cursive;
+}

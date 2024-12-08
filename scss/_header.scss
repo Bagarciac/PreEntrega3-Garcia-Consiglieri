@@ -1,0 +1,41 @@
+header{
+    h1{
+        color: aliceblue;
+        padding: 50px;
+        text-align: center;
+        font-size: 4rem;
+        font-family: "Quintessential", serif;
+    }
+    .navbar{
+        .color{
+            background-color: rgb(138, 5, 5);
+            .logo{
+                padding: 10px;
+                height: 120px;
+                width: 120px;
+                border-radius: 20px;
+            }
+            .menu{
+                .navbar-nav{
+                    .m-li{
+                        width: 200px;
+                        transition: all 0.5s;
+                        margin: 1rem;
+                        text-align: center;
+                        &:hover{
+                            transform: scale(1.4,1.4);
+                            transition: all 0.5s; 
+                        }
+                        a{
+                            color: rgb(231, 219, 219);
+                            font-size: 1.8rem;
+                            margin: 60px;
+                            font-family: "Quintessential", serif; 
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
